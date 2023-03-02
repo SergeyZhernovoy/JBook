@@ -9,8 +9,11 @@
 3. [Как оформить класс для хранения константных значений](../start/classes_for_static.md)
 4. [Ключевое слово final](../start/final.md)
 5. [Война с null](../start/null_war.md)
-6. [Проверки и assert](../start/assertions.md)
-7. [Общие советы](../start/advices.md)
+6. [Optional](../start/optional.md)
+7. [Проверки и assert](../start/assertions.md)
+8. [Подробно о Enum в Java](../start/enum.md)
+9. [Comparable и Comparator](../start/comparable_comparator.md)
+10. [Общие советы](../start/common_advices.md)
 
 ## Объектно-ориентированное программирование
 
@@ -22,7 +25,8 @@
 4. [Понятие интерфейса](../oop/interface.md)
 5. [Понятие абстрактного класса](../oop/abstract_class.md)
 6. [Абстрактные классы и интерфейсы](../oop/abstract_vs_interface.md)
-7. [SOLID](../oop/SOLID.md)
+7. [Подробно о this и super в Java](../oop/this_super.md)
+8. [SOLID](../oop/SOLID.md)
 
 ## java.lang.Object
 
@@ -45,6 +49,7 @@
 Исключения и все о работе с ними.
 
 1. [Исключения в Java](../exceptions/exceptions.md)
+2. [Вопросы для проверки по теме исключений](../exceptions/questions.md)
 
 ## Коллекции в Java
 
@@ -66,9 +71,15 @@
 6. Общие советы.
     * [Что делать, когда вам нужна пустая коллекция](../collections/empty_collections.md)
 
+## Concurrency
+
+Многопоточность в `Java`.
+
+1. [Введение в Concurrency Java](../concurrency/intro.md)
+
 ## Сериализация
 
-  Сериализация в `Java`. Виды, использование, примеры.
+Сериализация в `Java`. Виды, использование, примеры.
 
 ## Загрузка классов
 
@@ -95,7 +106,8 @@
 ### Порождающие
 
 * [Builder](../patterns/creational/builder.md)
-* [Factory](../patterns/creational/factory.md)
+* [Factory Method](../patterns/creational/factory_method.md)
+* [Abstract Factory](../patterns/creational/abstract_factory.md)
 * [Singleton](../patterns/creational/singleton.md)
 
 ### Поведенческие
@@ -126,6 +138,7 @@
 ### Алгоритмы сортировки
 
 * [Сортировка пузырьком](../algorithms/sorting/bubble.md)
+* [Сортировка простыми вставками](../algorithms/sorting/insertion.md)
 
 ## Многопоточное программирование
 
